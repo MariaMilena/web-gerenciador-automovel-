@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Veículos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gestão de Veículos</h1>
+
+    <!-- Botão para criar um novo veículo -->
+    <button id="criarVeiculoBtn" onclick="window.location.href='cadastro.html'">
+        <i class="fas fa-plus"></i> Criar Veículo
+    </button>
+
+    <!-- Tabela para listar os veículos -->
+    <table id="veiculosTable">
+        <thead>
+            <tr>
+                <th>Modelo</th>
+                <th>Fabricante</th>
+                <th>Ano</th>
+                <th>Preço</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Os dados serão preenchidos via JavaScript -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

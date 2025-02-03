@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+button#criarVeiculoBtn {
+    background-color: #4CAF50;
+}
+
+button#criarVeiculoBtn:hover {
+    background-color: #45a049;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    width: 32.7%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    background-color: #2196F3;
+}
+
+button[type="submit"]:hover {
+    background-color: #1976D2;
+}
+
+button[type="button"] {
+    background-color: #f44336;
+}
+
+button[type="button"]:hover {
+    background-color: #d32f2f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+button.editar, button.excluir, button.detalhes {
+    padding: 5px 8px;
+    margin: 0 2px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    color: white;
+    white-space: nowrap;
+}
+
+button.editar {
+    background-color: #2196F3;
+}
+
+button.editar:hover {
+    background-color: #1976D2;
+}
+
+button.excluir {
+    background-color: #f44336;
+}
+
+button.excluir:hover {
+    background-color: #d32f2f;
+}
+
+button.detalhes {
+    background-color: #4CAF50;
+}
+
+button.detalhes:hover {
+    background-color: #45a049;
+}
+
+td {
+    white-space: nowrap;
+}
+
