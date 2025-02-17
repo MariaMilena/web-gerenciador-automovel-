@@ -11,9 +11,25 @@
     <h1>Gestão de Veículos</h1>
 
     <!-- Botão para criar um novo veículo -->
-    <button id="criarVeiculoBtn" onclick="window.location.href='cadastro.html'">
+    <button id="criarVeiculoBtn">
         <i class="fas fa-plus"></i> Criar Veículo
     </button>
+
+    <!-- Modal para selecionar o tipo de veículo -->
+    <div id="modalTipoVeiculo" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Selecione o Tipo de Veículo</h2>
+            <div class="tipo-container">
+                <button id="selecionarCarro">
+                    <i class="fas fa-car"></i> Carro
+                </button>
+                <button id="selecionarMoto">
+                    <i class="fas fa-motorcycle"></i> Moto
+                </button>
+            </div>
+        </div>
+    </div>
 
     <!-- Tabela para listar os veículos -->
     <table id="veiculosTable">
